@@ -1,6 +1,5 @@
         .section        __TEXT,__text
         .globl          _putc
-        .globl _dbg
 
 _putc:
     leaq    (%rsp),      %rsi
